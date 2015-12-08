@@ -15,6 +15,8 @@
 		0F34D7FB1C152D2300AB9B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F34D7F91C152D2300AB9B98 /* LaunchScreen.storyboard */; };
 		0F34D8061C152D2300AB9B98 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F34D8051C152D2300AB9B98 /* __Tests.m */; };
 		0F34D8111C152D2300AB9B98 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F34D8101C152D2300AB9B98 /* __UITests.m */; };
+		0F34D81F1C152DAC00AB9B98 /* IMG_0087.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 0F34D81E1C152DAC00AB9B98 /* IMG_0087.PNG */; };
+		0F34D8221C15556A00AB9B98 /* ImplicitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F34D8211C15556A00AB9B98 /* ImplicitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		0F34D80C1C152D2300AB9B98 /* 绘画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "绘画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F34D8101C152D2300AB9B98 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		0F34D8121C152D2300AB9B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F34D81E1C152DAC00AB9B98 /* IMG_0087.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0087.PNG; sourceTree = "<group>"; };
+		0F34D8201C15556A00AB9B98 /* ImplicitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitViewController.h; sourceTree = "<group>"; };
+		0F34D8211C15556A00AB9B98 /* ImplicitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		0F34D7EA1C152D2300AB9B98 /* 绘画 */ = {
 			isa = PBXGroup;
 			children = (
+				0F34D81E1C152DAC00AB9B98 /* IMG_0087.PNG */,
 				0F34D7EE1C152D2300AB9B98 /* AppDelegate.h */,
 				0F34D7EF1C152D2300AB9B98 /* AppDelegate.m */,
 				0F34D7F11C152D2300AB9B98 /* ViewController.h */,
 				0F34D7F21C152D2300AB9B98 /* ViewController.m */,
+				0F34D8201C15556A00AB9B98 /* ImplicitViewController.h */,
+				0F34D8211C15556A00AB9B98 /* ImplicitViewController.m */,
 				0F34D7F41C152D2300AB9B98 /* Main.storyboard */,
 				0F34D7F71C152D2300AB9B98 /* Assets.xcassets */,
 				0F34D7F91C152D2300AB9B98 /* LaunchScreen.storyboard */,
@@ -248,6 +256,7 @@
 			files = (
 				0F34D7FB1C152D2300AB9B98 /* LaunchScreen.storyboard in Resources */,
 				0F34D7F81C152D2300AB9B98 /* Assets.xcassets in Resources */,
+				0F34D81F1C152DAC00AB9B98 /* IMG_0087.PNG in Resources */,
 				0F34D7F61C152D2300AB9B98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F34D7F31C152D2300AB9B98 /* ViewController.m in Sources */,
+				0F34D8221C15556A00AB9B98 /* ImplicitViewController.m in Sources */,
 				0F34D7F01C152D2300AB9B98 /* AppDelegate.m in Sources */,
 				0F34D7ED1C152D2300AB9B98 /* main.m in Sources */,
 			);
